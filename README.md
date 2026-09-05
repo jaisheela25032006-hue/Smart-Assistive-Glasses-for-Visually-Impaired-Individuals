@@ -1,15 +1,27 @@
-#Smart-Assistive-Glasses/
-│
-├── README.md
-├── Arduino_Code/
-│   └── smart_glasses.ino
-├── Circuit/
-│   └── circuit_diagram.png
-├── Components/
-│   └── component_list.pdf
-├── Documentation/
-│   └── Project_Report.pdf
-├── PPT/
-│   └── Project_Presentation.pptx
-└── Images/
-    └── Hardware_Model.jpg 
+# Smart Assistive Glasses for Visually Impaired Individuals
+
+## Objective
+To develop a wearable assistive device that helps visually impaired
+individuals detect nearby obstacles.
+
+## Components
+- ESP32
+- Ultrasonic Sensor
+- Buzzer
+- Vibration Motor
+- Battery
+
+## Working
+The ultrasonic sensor detects obstacles and sends the distance
+information to the ESP32. The ESP32 activates the buzzer/vibration
+motor when an obstacle is detected.
+
+## Technologies
+- Embedded C
+- ESP32
+- Arduino IDE
+- Ultrasonic sensing
+
+## Expected Output
+The system provides an audio/vibration alert when an obstacle
+is detected.
